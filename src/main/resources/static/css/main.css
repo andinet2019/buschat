@@ -17,7 +17,7 @@ body {
     font-size: 1rem;
     line-height: 1.58;
     color: #333;
-    background-color: orange;
+    background-color: #f4f4f4;
     height: 100%;
 }
 
@@ -27,7 +27,7 @@ body:before {
     position: absolute;
     top: 0;
     left: 0;
-    background: #003153;
+    background: #1ebea5;
     content: "";
     z-index: 0;
 }
@@ -46,7 +46,7 @@ body:before {
     width: 100%;
     min-height: 38px;
     font-size: 15px;
-    border: 1px solid brown;
+    border: 1px solid #c8c8c8;
 }
 
 .form-group {
@@ -176,7 +176,7 @@ button.accent {
 }
 
 #chat-page .event-message {
-    width: 100%;ß
+    width: 100%;
     text-align: center;
     clear: both;
 }

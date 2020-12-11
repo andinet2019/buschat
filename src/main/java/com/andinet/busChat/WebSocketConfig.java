@@ -13,7 +13,7 @@ import org.springframework.web.socket.config.annotation.WebSocketMessageBrokerCo
     @EnableWebSocketMessageBroker
     public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
  //STOMP is a messaging protocol that defines the rules and format for data exchanging
- //helps to send message to particular server cuz webSocket doesnot have that functionality
+ //helps to send message to particular user cuz webSocket doesnot have that functionality
         @Override
         public void registerStompEndpoints(StompEndpointRegistry registry) {
             registry.addEndpoint("/ws").withSockJS();
