@@ -4,16 +4,15 @@ import java.awt.*;
 
 public class ChatMessageModel {
 
-  private MessageType type;
-  private String content;
-  private String sender;
+    private MessageType type;
+    private String content;
+    private String sender;
 
-  //When someone joins it tells
-  public  enum MessageType{
-  CHAT,
-      JOIN,
-      LEAVE
-  }
+    public enum MessageType {
+        CHAT,
+        JOIN,
+        LEAVE
+    }
 
     public MessageType getType() {
         return type;
@@ -39,4 +38,3 @@ public class ChatMessageModel {
         this.sender = sender;
     }
 }
-
