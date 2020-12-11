@@ -12,8 +12,8 @@ public class ChatController {
 
     @MessageMapping("/chat.sendMessage")
     @SendTo("/topic/public")
-    public ChatMessageModel sendMessage(@Payload ChatMessageModel chatMessagePojo) {
-        return chatMessagePojo;
+    public ChatMessageModel sendMessage(@Payload ChatMessageModel chatMessageModel) {
+        return chatMessageModel;
     }
 
     @MessageMapping("/chat.addUser")
